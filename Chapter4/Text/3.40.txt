@@ -1,0 +1,16 @@
+public class Tree
+{
+	private Traingle leaves;
+	private Square trunk;
+
+
+	/**
+	* Constructor for class picture
+	*/
+	public Tree()
+	{
+	  leaves = new Triangle();
+	  trunk = new Square();
+	}
+
+	

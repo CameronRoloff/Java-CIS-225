@@ -1,0 +1,35 @@
+public class Tree
+{
+	private Traingle leaves;
+	private Square trunk;
+
+
+	/**
+	* Constructor for class picture
+	*/
+	public Tree()
+	{
+	  leaves = new Triangle();
+	  trunk = new Square();
+	  setup();
+	}
+
+	/**
+	* drawing the picture
+	*/
+	
+	public void setup()
+	{
+  	 trunk.moveVertical(80);
+	 trunk.moveHorinzontal(-80);
+	 trunk.changeSize(40);
+	 trunk.changeColor("brown");
+	 trunk.makeVisible();
+
+	 leaves.moveVertical(38);
+	 leaves.moveHorinzontal(-100);
+	 leaves.changeSize(180,150);
+	 leaves.changeColor("green");
+	 leaves.makeVisible();
+	}
+}

@@ -1,0 +1,153 @@
+4.2
+no error is giving, I thought you would of but you don't. It simply returns no info back.
+4.3
+File 0 and 1 traded places with each other, so when I called List 0 again it was different from the start. I think this would be caused by it being a arrylist.
+4.4
+private ArrayList<Book> library;
+4.5
+public ArrayList<Student> cs101;
+4.6
+private ArrayList<MusicTrack> tracks;
+4.7
+library = new ArrayList<Book>();
+cs101 = new ArrayList<Student>();
+tracks = new ArrayList<MusicTrack>();
+4.8;
+10
+4.9;
+items.get(4);
+(its 4 because you start with 0)
+4.10;
+14
+4.11;
+files.add(favoriteTrack)
+4.12;
+dates.remove(2);
+4.13;
+it should be 5, because you're removing two and its going to replace 0 with 1.
+4.14;
+(picture)
+4.15;
+(picture)
+4.16;
+(code)
+4.17;
+(photo) if you add a file that isn't already made, it does not produce a error.
+4.18;
+It shouldn't need any parameters, it should only be public void listAllFiles()
+4.19;
+no because it could be any amount the user picks, there is no way for me to know weather or not its 3 or 1,000.
+4.20;
+(picture)
+4.21;
+(picture)
+4.22;
+(picture)
+4.24;
+(picture of working and code)
+
+4.26;
+
+4.27;
+
+4.28;
+for(Track track : tracks)
+
+4.29;
+boolean found = false;
+while(!found){
+	if(the keys are in the next place){
+	   found = true;
+	}
+}
+
+4.30;
+
+public void multiplesOfFive()
+{
+	int multiple = 10;
+	while(multiple <= 95){
+	     System.out.println(multiple);
+	     multiple = multiple + 5;
+	}
+}
+
+4.31;
+
+int num =1;
+int sum = 0;
+
+while(num<=10){
+	sum+=num;
+	num++;
+}
+System.out.println("Sum between 1-10 added is" + sum);
+
+4.32;
+public int sum(int a, int b)
+{
+	int sum = 0;
+	int number = a;
+	while(number = number +1;
+	}
+return sum;
+}
+4.33;
+public boolean isPrime(int n)
+{
+	int check = 2;
+	while(check  < n){
+	  if(n % check== 0){
+		return false;
+	}
+	check = check +1;
+}
+return true;
+}
+4.34;
+
+Yes it does, because if you add or remove a new list. The count will be different.
+
+4.35;
+
+4.36;
+
+4.37;
+
+4.38;
+(photo)
+
+4.39;
+
+4.40;
+(picture) note how I only imported what I need, instead of importing everything.
+4.47;
+boolean successful = selectedLot.bidFor(new Bid(bidder, value));
+4.48;
+
+
+
+
+
+
+
+61 to 83 is not given in the book
+
+4.84;
+The do while loop is similar to while loop. But, the body of the do in the while loop is executed once before the test expression is checked.
+
+do {
+    // body of loop
+} while(textExpression)
+4.87;
+the switch recieves the value, then that value goes thru every case and checks if the case is true, if itr's true it does the code below it , if it's false it skips to the next case. and if no case is found then it goes to the default if there's one
+
+switch (day)
+{
+
+case 0: dayString = "Sunday"
+break;
+case 1: dayString = "Monday"
+break;
+
+}
